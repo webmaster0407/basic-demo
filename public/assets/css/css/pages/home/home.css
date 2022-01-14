@@ -1,0 +1,139 @@
+
+#audio {
+	display: none;
+}
+
+
+#fullContainer {
+	background-color: #fff;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 100%;
+  	height: 100vh;
+}
+
+#middleContainer {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	position: relative;
+	margin:  auto;
+}
+
+#playBtn {
+	margin: auto;
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*background-color: white;*/
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+
+#container > img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+}
+
+/*#playBtn {
+	background-color: green;
+}*/
+
+.btnArea {
+	margin-top: 20px;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #0ce3eb;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+
+.playBtn {
+  border-color: #0ce3eb;
+  color: #fff;
+  background-image: linear-gradient(45deg, #0ce3eb 50%, transparent 50%);
+  background-position: 0%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+
+.playBtn:hover {
+  background-position: 100%;
+  color: #000;
+}
+
+.disableBtn {
+  border-color: #eee;
+  background-color: #eee;
+  color: #000;
+  cursor:  not-allowed;
+  /*background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);*/
+  /*background-position: 100%;*/
+  /*background-size: 400%;*/
+  /*transition: background 300ms ease-in-out;*/
+}
+
+.disableBtn:hover {
+	color: #000;
+}
+
+/*@media(min-width: 800px) {
+	#container {
+		width: 90%;
+	}
+}
+@media(min-width: 960px) {
+	#container {
+		width: 80%;
+	}
+}*/
+/*
+@media(min-width: 1300px) {
+	#container {
+		width: 70%;
+	}
+}
+*/
+
+/*
+@media(max-width: 800px) {
+	#container {
+		width: 95%;
+	}
+}
+*/

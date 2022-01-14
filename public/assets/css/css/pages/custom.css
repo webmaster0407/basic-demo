@@ -1,0 +1,4 @@
+.bootstrap-switch-handle-off>i::before,
+.bootstrap-switch-handle-on>i::before {
+    color: white;
+}
